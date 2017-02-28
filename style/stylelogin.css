@@ -1,0 +1,209 @@
+/* CSS Document */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding: 0;};
+body{font-size: 12px;}
+img{border: none;}
+li{list-style: none;}
+input,select,textarea{outline: none;}
+textarea{resize: none;}
+a{text-decoration: none;}
+
+
+.head{
+	height: 165px;
+	border-bottom: 1px solid rgb(155,152,150);
+}
+.headtop{
+	height: 36px;
+	background-color:rgb(238,238,238);
+	color: rgb(79,79,79);
+}
+.headtop h2{
+	width: 67px; height: 36px;
+	background: url(../images/ico_home.png) no-repeat left center;
+	font-size: 17px;
+	line-height: 36px;
+	padding-left: 30px; 
+	margin-left: 42px;
+	float: left;
+}
+.headtop ul{
+	font-size: 14px;
+	margin-right: 140px;
+}
+.headtop li{
+	line-height: 36px;
+	margin-left: 30px;
+	float: right;
+}
+.headtop a:link,.headtop a:visited{
+	color: rgb(79,79,79);
+}
+.headtop a:hover,.headtop a:active{
+	color: rgb(160,80,55);
+}
+.left{
+	margin-left: 45px;
+	margin-top: 15px;
+	float: left;
+}
+.center{
+	width: 515px; height: 40px;
+	background: url(../images/search.png) no-repeat;
+	margin-left: 190px;
+	margin-top: 40px;
+	float: left;
+}
+#searchbox{
+	width: 387px; height: 30px;
+	border:none;
+	margin-left: 42px;
+	margin-top: 3px;
+	float: left;
+}
+input[value]{                      /*缺一个js使开始输入时value清空*/
+	color:#999;
+	padding-left:10px;
+}
+input[value="请输入手机号码"]{
+	background:url(../images/ico_user.png) no-repeat 94% 40%;/*背景定位*/
+}
+input[value="请输入密码"]{
+	background:url(../images/ico_password.png) no-repeat 94% 40%;
+}
+#searchbutton{
+	width: 80px; height: 35px;
+	border: none;
+	background-color:rgba(255,255,255,0); 
+}
+.right{
+	width: 155px; height: 35px;
+	border: 1px solid rgb(200,200,200);
+	line-height: 35px;
+	margin-left: 50px;
+	margin-top: 40px;
+	float: left;
+}
+
+#shopcar{
+	background: url(../images/car.png) no-repeat left center;
+	font-size: 12px;
+	color: rgb(79,79,79);
+	margin-left: 10px;
+	padding-left:25px; 
+	float: left;
+}
+#shopnum{
+	background: url(../images/page_right.png) no-repeat right center;
+	font-size: 12px;
+	color: orange;
+	padding-right: 20px;
+	margin-left: 10px;
+	float: left;
+}
+/*通用头部结束*/
+.main{
+	height: 735px;
+}
+.leftarea{
+	width: 380px; height: 325px;
+	border: 1px solid #c1bfc0;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-top: 160px;
+	padding-left: 40px;
+	box-shadow: 0px 0px 0px 4px #666;
+	float: left;
+}
+
+.leftarea h2{
+	width: 300px; height: 40px;
+	border-bottom: 1px solid #c1bfc0;
+	color: rgb(7,126,254);
+	margin-top: 35px;
+}
+.leftarea a{
+	color: red;
+}
+.leftarea span{
+	font-size: 12px;
+	color: rgb(79,79,79);
+	line-height: 40px;
+	float: right;
+}
+#username{	
+	width: 300px; height: 40px;
+	border: 1px solid #c1bfc0;
+	margin: 20px 0px;
+}
+#userpsw{
+	width: 300px; height: 40px;
+	border: 1px solid #c1bfc0;
+	margin: 10px 0px;
+}
+.leftarea p{
+	font-size: 13px;
+}
+#userbutton{
+	width: 300px; height: 80px;
+	border: none;
+	color: rgba(0,0,0,0);
+	background: url(../images/login_bt.png) no-repeat;
+	margin-top: 10px;
+}
+.rightarea{
+	width: 360px; height: 410px;
+	background: url(../images/login_bg.png) no-repeat;
+	margin-top: 140px;
+	margin-left: 300px;
+	float: left;
+}
+
+
+/*中部内容结束*/
+.foot{
+	width: 100%; height: 300px;
+	background-color: rgb(54,54,54);
+	margin-top: 50px;
+}
+.foottop{
+	width: 100%; height: 260px;
+	border-bottom: 1px solid #000; 
+}
+.ft1{
+	padding-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+.ft2{
+	margin-top: 75px;
+	float: left;
+	margin-left: 150px;
+}
+.ft2 ul{
+	margin-right: 150px;
+	float: left;
+}
+.ft2 li a{
+	font-size: 14px;
+	color: #9c9c9c;
+}
+.ft2 h2 a{
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(180,180,180);	
+}
+.ft2 h2 , li{
+	margin-bottom: 10px;
+}
+.ft3{
+	margin-top: 50px;
+	float: left;
+}
+.footbottom{
+	line-height: 40px;
+	text-align: center;
+	color: #9c9c9c;
+	font-size: 12px;
+}
+/*通用尾部结束*/
